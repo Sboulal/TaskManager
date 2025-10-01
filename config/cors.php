@@ -17,9 +17,9 @@ return [
 
     'paths' => ['*'],
 
-    'allowed_methods' => ['*','http://localhost:4200'],
+    'allowed_methods' => ['*'],
 
-    'allowed_origins' => [env('FRONTEND_URL', 'http://localhost:3000','http://localhost:4200')],
+     'allowed_origins' => ['http://localhost:4200', 'http://127.0.0.1:4200'],
 
     'allowed_origins_patterns' => [],
 
